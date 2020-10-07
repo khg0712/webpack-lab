@@ -4,8 +4,16 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chunks-webpack-plugin": "^6.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
 }
