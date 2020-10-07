@@ -1,5 +1,5 @@
-import {a} from './2';
-import {k} from './5';
+import {a} from './common1';
+import {k} from './common2';
 
 console.log(k);
 const third = 3;

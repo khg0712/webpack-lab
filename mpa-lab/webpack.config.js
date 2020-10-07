@@ -4,9 +4,9 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
 	entry: {
-		a: "./src/1.js",
-		b: "./src/3.js",
-		c: "./src/4.js",
+		a: "./src/a.js",
+		b: "./src/b.js",
+		c: "./src/c.js",
 	},
 	output: {
 		path: path.resolve(__dirname, "dist"),
